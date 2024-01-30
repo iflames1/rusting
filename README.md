@@ -18,5 +18,5 @@ Rust is a systems programming language that aims to provide the performance of C
 
 Feel free to explore the code in this repository to grasp the basics of Rust. Happy coding! 👩‍💻👨‍💻
 
-# [0x00-hello_world](./0x00-hello_world/README.md)
+# [0x00-hello_world](./src/0x00-hello_world/README.md)
 **Description:** How to print text using `println!` and `print!`
