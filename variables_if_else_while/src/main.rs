@@ -30,4 +30,7 @@ fn main() {
 
 	// Funtion that prints all possible different combinations of two digits
 	functions1::print_comb2();
+
+	// Funtion that prints all possible different combinations of three digits
+	functions1::print_comb3();
 }
