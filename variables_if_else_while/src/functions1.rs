@@ -9,3 +9,19 @@ pub fn check_signed(number: i32) {
 		println!("{number} is zero");
 	}
 }
+
+pub fn last_digit(number: i32) {
+	let last_digit = number % 10;
+
+	let value: &str =
+		if last_digit == 0 {"0"}
+		else if last_digit == 0 {"0"}
+		else if last_digit > 5 {"greater than 5 and not 0"}
+		else {"less than 6 and not 0"};
+
+	println!("Last digit of {number} is {last_digit} and is {value}");
+}
+
+//fn main() {
+//	last_digit(100);
+//}

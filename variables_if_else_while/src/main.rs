@@ -8,5 +8,5 @@ fn main() {
     println!("Random generated number is: {}", n);
 
     functions1::check_signed(n);
-
+	functions1::last_digit(n);
 }
