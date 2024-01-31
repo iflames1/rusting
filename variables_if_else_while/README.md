@@ -1,7 +1,5 @@
 # Rust Variables
 
-Welcome to the Rust Variables guide! 🦀
-
 ## Overview
 
 In Rust, variables are used to store and manipulate data. They come with a set of rules and features that ensure memory safety and prevent common programming errors.
@@ -50,3 +48,7 @@ println!("Hello, {}!", name);
 
 ## Conclusion
 Understanding variables in Rust is crucial for writing safe and performant code. Whether immutable or mutable, variables play a central role in data manipulation.
+
+
+## [Functions1](./src/functions1.rs)
+- **check_signed(number)** - check if a number is signed or not
