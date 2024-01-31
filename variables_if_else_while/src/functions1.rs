@@ -42,6 +42,15 @@ pub fn print_alphabet2() {
 	print!("\n");
 }
 
+pub fn print_numbers() {
+	let mut digit: u8 = 0;
+	while digit < 10 {
+		print!("{}", digit);
+		digit += 1;
+	}
+	print!("\n");
+}
+
 //fn main() {
-//	print_alphabet2();
+//	print_numbers();
 //}

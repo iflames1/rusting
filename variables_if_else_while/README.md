@@ -88,7 +88,7 @@ $ ./functions1
 abcdefghijklmnopqrstuvwxyz
 ```
 
-- **print_alphabet()** - print the lowercase and uppercase alphabet
+- **print_alphabet2()** - print the lowercase and uppercase alphabet
 ```rust
 $ rustc functions1.rs
 $ ./functions1

@@ -11,4 +11,5 @@ fn main() {
 	functions1::last_digit(n);
 	functions1::print_alphabet();
 	functions1::print_alphabet2();
+	functions1::print_numbers();
 }
