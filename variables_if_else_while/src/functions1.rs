@@ -34,7 +34,7 @@ pub fn last_digit(number: i32) {
 pub fn print_alphabet() {
 	// print lowercase alphabet
 	for c in b'a'..=b'z' {
-        println!("{}", c as char);
+        print!("{}", c as char);
     }
 
 	// move to next line
@@ -84,7 +84,7 @@ pub fn print_alphabet_reverse() {
 	print!("\n");
 }
 
-// Function to print numbers from 0-9 formatted
+// Function to print numbers from 0-9 formatted with commas
 pub fn print_numbers_formatted() {
 	// Initialize digit variable
 	let mut digit: u8 = 0;

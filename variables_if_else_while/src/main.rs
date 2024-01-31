@@ -24,4 +24,7 @@ fn main() {
 
 	// Function to print alphabet in reverse
 	functions1::print_alphabet_reverse();
+
+	// Function to print numbers from 0-9 formatted with commas
+	functions1::print_numbers_formatted();
 }

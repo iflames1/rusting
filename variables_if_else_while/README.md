@@ -107,3 +107,10 @@ $ rustc functions1.rs
 $ ./functions1
 zyxwvutsrqponmlkjihgfedcba
 ```
+
+- **print_numbers_formatted()** - print numbers from 0-9 formatted with commas
+```rust
+$ rustc functions1.rs
+$ ./functions
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+```
