@@ -84,6 +84,27 @@ pub fn print_alphabet_reverse() {
 	print!("\n");
 }
 
+// Function to print numbers from 0-9 formatted
+pub fn print_numbers_formatted() {
+	// Initialize digit variable
+	let mut digit: u8 = 0;
+
+	while digit < 10 {
+		// print current digit
+		print!("{digit}");
+
+		// print comma if digit is not 9
+		if digit != 9 {
+			print!(", ");
+		}
+
+		digit += 1;
+	}
+
+	// move to next line
+	print!("\n");
+}
+
 //fn main() {
-//	print_alphabet_reverse();
+//	print_numbers_formatted();
 //}
