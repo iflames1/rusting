@@ -33,16 +33,12 @@ pub fn last_digit(number: i32) {
 // Function to print lowercase
 pub fn print_alphabet() {
 	// print lowercase alphabet
-	for i in 97u8..=122u8 {
-		print!("{}", i as char);
-	}
+	for c in b'a'..=b'z' {
+        println!("{}", c as char);
+    }
 
 	// move to next line
 	print!("\n");
-	// Alternative way to loop from 'a' to 'z'
-	//for c in b'a'..=b'z' {
-    //    println!("{}", c as char);
-    //}
 }
 
 // Function to print lowercase and uppercase alphabet
@@ -73,6 +69,21 @@ pub fn print_numbers() {
 	print!("\n");
 }
 
+// Function to print alphabet in reverse
+pub fn print_alphabet_reverse() {
+	// initialize character to 'z'
+	let mut character = b'z';
+
+	// print lowercase alphabet in reverse
+	while character >= b'a' {
+		print!("{}", character as char);
+		character -= 1;
+	}
+
+	// move to next line
+	print!("\n");
+}
+
 //fn main() {
-//	print_numbers();
+//	print_alphabet_reverse();
 //}
