@@ -26,8 +26,22 @@ pub fn print_alphabet() {
 	for i in 97u8..=122u8 {
 		print!("{}", i as char);
 	}
+	print!("\n");
+	//for c in b'a'..=b'z' {
+    //    println!("{}", c as char);
+    //}
+}
+
+pub fn print_alphabet2() {
+	for c in b'a'..=b'z' {
+		print!("{}", c as char);
+	}
+	for c in b'A'..=b'Z' {
+		print!("{}", c as char);
+	}
+	print!("\n");
 }
 
 //fn main() {
-//	print_alphabet();
+//	print_alphabet2();
 //}
