@@ -107,13 +107,15 @@ pub fn print_numbers_formatted() {
 
 
 // Funtion that prints all possible different combinations of two digits
-pub fn print_comb() {
+pub fn print_comb2() {
 	// Initialize tens and ones digits
 	let mut tens: u8 = 0;
-	let mut ones: u8 = 1;
+
 
 	// implement logic to Print combination of tens and ones digits
 	while tens < 9 {
+		let mut ones: u8 = tens + 1;
+
 		while ones < 10 {
 			// print tens and ones
 			print!("{tens}{ones}");
@@ -121,10 +123,43 @@ pub fn print_comb() {
 			if tens != 8 {
 				print!(", ")
 			}
+
 			ones += 1;
 		}
+
 		tens += 1;
-		ones = tens + 1;
+	}
+
+	// move to next line
+	print!("\n");
+}
+
+// Funtion that prints all possible different combinations of three digits
+pub fn print_comb3() {
+	let mut hundreds: u8 = 0;
+
+	// implement logic to Print combination of hundreds, tens and ones digits
+	while hundreds < 8 {
+		let mut tens: u8 = hundreds + 1;
+
+		while tens < 9 {
+			let mut ones: u8 = tens + 1;
+
+			while ones < 10 {
+				// print hundreds, tens and ones
+				print!("{hundreds}{tens}{ones}");
+
+				if hundreds != 7 {
+					print!(", ");
+				}
+
+				ones += 1;
+			}
+
+			tens += 1;
+		}
+
+		hundreds += 1;
 	}
 
 	// move to next line
@@ -132,5 +167,5 @@ pub fn print_comb() {
 }
 
 //fn main() {
-//	print_comb();
+//	print_comb2();
 //}

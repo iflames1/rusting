@@ -29,5 +29,5 @@ fn main() {
 	functions1::print_numbers_formatted();
 
 	// Funtion that prints all possible different combinations of two digits
-	functions1::print_comb();
+	functions1::print_comb2();
 }
