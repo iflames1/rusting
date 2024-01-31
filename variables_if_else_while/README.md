@@ -81,9 +81,16 @@ $ ./functions1
 Last digit of -1009 is -9 and is less than 6 and not 0
 ```
 
-- **print_alphabet** - print the lowercase alphabet
+- **print_alphabet()** - print the lowercase alphabet
 ```rust
 $ rustc functions1.rs
 $ ./functions1
 abcdefghijklmnopqrstuvwxyz
+```
+
+- **print_alphabet()** - print the lowercase and uppercase alphabet
+```rust
+$ rustc functions1.rs
+$ ./functions1
+abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
 ```
