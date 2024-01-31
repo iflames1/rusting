@@ -84,7 +84,7 @@ pub fn print_alphabet_reverse() {
 	print!("\n");
 }
 
-// Function to print numbers from 0-9 formatted with commas
+// Function that print numbers from 0-9 formatted with commas
 pub fn print_numbers_formatted() {
 	// Initialize digit variable
 	let mut digit: u8 = 0;
@@ -105,6 +105,32 @@ pub fn print_numbers_formatted() {
 	print!("\n");
 }
 
+
+// Funtion that prints all possible different combinations of two digits
+pub fn print_comb() {
+	// Initialize tens and ones digits
+	let mut tens: u8 = 0;
+	let mut ones: u8 = 1;
+
+	// implement logic to Print combination of tens and ones digits
+	while tens < 9 {
+		while ones < 10 {
+			// print tens and ones
+			print!("{tens}{ones}");
+
+			if tens != 8 {
+				print!(", ")
+			}
+			ones += 1;
+		}
+		tens += 1;
+		ones = tens + 1;
+	}
+
+	// move to next line
+	print!("\n");
+}
+
 //fn main() {
-//	print_numbers_formatted();
+//	print_comb();
 //}
