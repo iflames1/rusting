@@ -7,10 +7,21 @@ fn main() {
 
     println!("Random generated number is: {} \n", n);
 
+	// Function to check if a number is positive, negative or zero
     functions1::check_signed(n);
+
+	// Function to find last digit of a number
 	functions1::last_digit(n);
+
+	// Function to print lowercase
 	functions1::print_alphabet();
+
+	// Function to print lowercase and uppercase alphabet
 	functions1::print_alphabet2();
+
+	// Function to print numbers
 	functions1::print_numbers();
+
+	// Function to print alphabet in reverse
 	functions1::print_alphabet_reverse();
 }

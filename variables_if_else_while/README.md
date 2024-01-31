@@ -100,3 +100,10 @@ $ rustc functions1.rs
 $ ./functions1
 0123456789
 ```
+
+- **print_alphabet_reverse()** - prints the lowercase alphabet in reverse
+```rust
+$ rustc functions1.rs
+$ ./functions1
+zyxwvutsrqponmlkjihgfedcba
+```
