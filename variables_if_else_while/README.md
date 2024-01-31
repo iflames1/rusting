@@ -51,5 +51,32 @@ Understanding variables in Rust is crucial for writing safe and performant code.
 
 
 ## [Functions1](./src/functions1.rs)
+### The value for `number` in function parameters here are random numbers.
 - **check_signed(number)** - check if a number is signed or not
+```rust
+$ rustc functions1.rs
+$ ./functions1
+0 is zero
+
+$ rustc functions1.rs
+$ ./functions1
+1009 is positive
+
+$ rustc functions1.rs
+$ ./functions1
+-100 is negative
+```
 - **last_digit(number)** - checks the last digit of a number
+```rust
+$ rustc functions1.rs
+$ ./functions1
+Last digit of 100 is 0 and is 0
+
+$ rustc functions1.rs
+$ ./functions1
+Last digit of 1009 is 9 and is greater than 5 and not 0
+
+$ rustc functions1.rs
+$ ./functions1
+Last digit of -1009 is -9 and is less than 6 and not 0
+```

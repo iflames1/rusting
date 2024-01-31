@@ -23,5 +23,5 @@ pub fn last_digit(number: i32) {
 }
 
 //fn main() {
-//	last_digit(100);
+//	check_signed(-100);
 //}
