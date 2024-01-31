@@ -22,6 +22,12 @@ pub fn last_digit(number: i32) {
 	println!("Last digit of {number} is {last_digit} and is {value}");
 }
 
+pub fn print_alphabet() {
+	for i in 97u8..=122u8 {
+		print!("{}", i as char);
+	}
+}
+
 //fn main() {
-//	check_signed(-100);
+//	print_alphabet();
 //}

@@ -9,4 +9,5 @@ fn main() {
 
     functions1::check_signed(n);
 	functions1::last_digit(n);
+	functions1::print_alphabet();
 }
