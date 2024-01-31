@@ -94,3 +94,9 @@ $ rustc functions1.rs
 $ ./functions1
 abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
 ```
+- **print_numbers()** - prints all single digit numbers
+```rust
+$ rustc functions1.rs
+$ ./functions1
+0123456789
+```
