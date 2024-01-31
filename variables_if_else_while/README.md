@@ -52,3 +52,4 @@ Understanding variables in Rust is crucial for writing safe and performant code.
 
 ## [Functions1](./src/functions1.rs)
 - **check_signed(number)** - check if a number is signed or not
+- **last_digit(number)** - checks the last digit of a number
