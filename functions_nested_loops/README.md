@@ -59,7 +59,7 @@ Understanding functions is fundamental to Rust programming. They enable code org
 - **print_alphabet_x10()** - prints the alphabet, repeated ten times.
 ```rust
 $ rustc functions.rs
-$ ./functions.exe
+$ ./functions
 abcdefghijklmnopqrstuvwxyz
 abcdefghijklmnopqrstuvwxyz
 abcdefghijklmnopqrstuvwxyz
@@ -70,4 +70,10 @@ abcdefghijklmnopqrstuvwxyz
 abcdefghijklmnopqrstuvwxyz
 abcdefghijklmnopqrstuvwxyz
 abcdefghijklmnopqrstuvwxyz
+```
+- **_is_lowercase(c: char)** - checks for lowercase character.
+```rust
+$ rustc functions.rs
+$ ./functions
+The generated character 'K' is not lowercase.
 ```

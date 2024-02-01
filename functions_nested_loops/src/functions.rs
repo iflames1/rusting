@@ -1,6 +1,6 @@
 //  Funtion that prints the alphabet, repeated ten times.
 pub fn print_alphabet_x10() {
-	let mut line = 0;
+	let mut line: i32 = 0;
 
 	// Loop while lines are less than 10 and print the alphabet on each iteration.
 	while line < 10 {
@@ -17,6 +17,7 @@ pub fn print_alphabet_x10() {
 
 // Function that checks for lowercase character.
 pub fn _is_lowercase(c: char) -> bool {
+	// Char code between 'a' and 'z'?
     return (c >= 'a') && (c <= 'z');
 }
 
