@@ -41,6 +41,21 @@ pub fn jack_bauer() {
 	}
 }
 
+// Function that prints the 9 times table, starting with 0.
+pub fn nine_times_table() {
+	for num in 1..=9 {
+		print!("0, ");
+		for mul in 0..=9 {
+			print!("{:2}", num * mul);
+
+			if mul != 9 {
+				print!(", ")
+			}
+		}
+		print!("\n");
+	}
+}
+
 //fn main() {
-//	jack_bauer();
+//	nine_times_table();
 //}
