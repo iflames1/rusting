@@ -21,6 +21,23 @@ pub fn _is_lowercase(c: char) -> bool {
     return (c >= 'a') && (c <= 'z');
 }
 
-//fn main() {
-//	println!("{}", _is_lowercase('a'))
-//}
+// Function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
+pub fn jack_bauer() {
+	'outer: for tmin in 0..3{
+		for umin in 0..10 {
+			for sec in 0..6 {
+				for msec in 0..10 {
+					println!("{tmin}{umin}:{sec}{msec}");
+
+					if tmin == 2 && umin == 3 && sec == 5 && msec == 9 {
+						break 'outer;
+					}
+				}
+			}
+		}
+	}
+}
+
+fn main() {
+	jack_bauer();
+}
