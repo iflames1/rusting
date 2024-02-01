@@ -1,4 +1,4 @@
-# Rust Variables
+# Rust Variables 🦀
 
 ## Overview
 
