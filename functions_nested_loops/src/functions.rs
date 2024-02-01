@@ -15,6 +15,11 @@ pub fn print_alphabet_x10() {
 	}
 }
 
-fn main() {
-	print_alphabet_x10();
+// Function that checks for lowercase character.
+pub fn _is_lowercase(c: char) -> bool {
+    return (c >= 'a') && (c <= 'z');
 }
+
+//fn main() {
+//	println!("{}", _is_lowercase('a'))
+//}
