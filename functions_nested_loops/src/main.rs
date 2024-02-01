@@ -16,6 +16,9 @@ fn main() {
 		println!("The generated character '{}' is not lowercase.", character);
 	}
 
+	// Function that prints the 9 times table, starting with 0.
+	functions::nine_times_table();
+
 	// Function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
 	// currently comment because of length.
 	// functions::jack_bauer();
