@@ -54,3 +54,20 @@ pub fn public_function() {
 ```
 ## Conclusion
 Understanding functions is fundamental to Rust programming. They enable code organization, reusability, and help create clean and maintainable software.
+
+## [Functions1](./src/functions.rs)
+- **print_alphabet_x10()** - prints the alphabet, repeated ten times.
+```rust
+$ rustc functions.rs
+$ ./functions.exe
+abcdefghijklmnopqrstuvwxyz
+abcdefghijklmnopqrstuvwxyz
+abcdefghijklmnopqrstuvwxyz
+abcdefghijklmnopqrstuvwxyz
+abcdefghijklmnopqrstuvwxyz
+abcdefghijklmnopqrstuvwxyz
+abcdefghijklmnopqrstuvwxyz
+abcdefghijklmnopqrstuvwxyz
+abcdefghijklmnopqrstuvwxyz
+abcdefghijklmnopqrstuvwxyz
+```

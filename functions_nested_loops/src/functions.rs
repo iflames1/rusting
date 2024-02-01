@@ -14,3 +14,7 @@ pub fn print_alphabet_x10() {
 		line += 1;
 	}
 }
+
+fn main() {
+	print_alphabet_x10();
+}
