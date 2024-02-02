@@ -46,10 +46,10 @@ pub fn jack_bauer() {
 // Function that prints the 9 times table, starting with 0.
 pub fn nine_times_table() {
 	// Iterate over numbers 1 to 9 and multiply the iteration by 0 to 9
-	for num in 1..=9 {
+	for num in 0..=9 {
 		print!("0, ");
 
-		for mul in 0..=9 {
+		for mul in 1..=9 {
 			// Print the current multiple
 			print!("{:2}", num * mul);
 
@@ -101,6 +101,6 @@ pub fn print_to_98(mut number: i8) {
 }
 
 
-//fn main() {
-//	print_times_table(12);
-//}
+fn main() {
+	nine_times_table();
+}
