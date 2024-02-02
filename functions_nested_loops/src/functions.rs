@@ -62,7 +62,10 @@ pub fn nine_times_table() {
 	}
 }
 
+// Function to print times table
 pub fn print_times_table(number: u16) {
+	println!("number is {}", number);
+
 	for num in 0..=number {
 		print!("0,");
 
@@ -80,7 +83,7 @@ pub fn print_times_table(number: u16) {
 
 // Function that prints all natural numbers from n to 98, followed by a new line.
 pub fn print_to_98(mut number: i8) {
-	println!("n is {number}");
+	println!("number is {number}");
 
 	if number <= 98 {
 		while number < 98 {
@@ -101,6 +104,6 @@ pub fn print_to_98(mut number: i8) {
 }
 
 
-fn main() {
-	nine_times_table();
-}
+//fn main() {
+//	print_times_table(12);
+//}

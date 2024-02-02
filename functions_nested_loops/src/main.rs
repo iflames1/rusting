@@ -28,4 +28,12 @@ fn main() {
 	// Function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
 	// currently comment because of length.
 	// functions::jack_bauer();
+
+	// Function to print times table
+	if n < 0 {
+		let number = n * -1;
+		functions::print_times_table(number as u16);
+	} else {
+		functions::print_times_table(n as u16);
+	}
 }
