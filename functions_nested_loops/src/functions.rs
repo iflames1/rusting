@@ -61,6 +61,8 @@ pub fn nine_times_table() {
 
 // Function that prints all natural numbers from n to 98, followed by a new line.
 pub fn print_to_98(mut number: i8) {
+	println!("\nn is {number}");
+
 	if number <= 98 {
 		while number < 98 {
 			print!("{number}");
