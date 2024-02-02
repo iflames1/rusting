@@ -1,3 +1,5 @@
+use std::u16;
+
 //  Funtion that prints the alphabet, repeated ten times.
 pub fn print_alphabet_x10() {
 	let mut line: i32 = 0;
@@ -46,6 +48,7 @@ pub fn nine_times_table() {
 	// Iterate over numbers 1 to 9 and multiply the iteration by 0 to 9
 	for num in 1..=9 {
 		print!("0, ");
+
 		for mul in 0..=9 {
 			// Print the current multiple
 			print!("{:2}", num * mul);
@@ -55,6 +58,22 @@ pub fn nine_times_table() {
 			}
 		}
 		// Move to the next
+		print!("\n");
+	}
+}
+
+pub fn print_times_table(number: u16) {
+	for num in 0..=number {
+		print!("0,");
+
+		for mul in 1..=number {
+			print!("{:4}", num * mul);
+
+			if mul != number {
+				print!(",")
+			}
+		}
+
 		print!("\n");
 	}
 }
@@ -83,5 +102,5 @@ pub fn print_to_98(mut number: i8) {
 
 
 //fn main() {
-//	print_to_98(-10);
+//	print_times_table(12);
 //}
