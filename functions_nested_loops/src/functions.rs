@@ -59,6 +59,27 @@ pub fn nine_times_table() {
 	}
 }
 
-//fn main() {
-//	nine_times_table();
-//}
+// Function that prints all natural numbers from n to 98, followed by a new line.
+pub fn print_to_98(mut number: i128) {
+	if number <= 98 {
+		while number < 98 {
+			print!("{number}");
+			print!(", ");
+
+			number += 1;
+		}
+	} else {
+		while number > 98 {
+			print!("{number}");
+			print!(", ");
+
+			number -= 1;
+		}
+	}
+	println!("98");
+}
+
+
+fn main() {
+	print_to_98(-10);
+}
