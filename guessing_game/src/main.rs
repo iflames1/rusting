@@ -10,7 +10,7 @@ fn main() {
     println!("The secret number is: {secret_number}");
 
     loop {
-        println!("Please input your guess: ");
+        println!("Please input your guess:");
 
         let mut guess = String::new();
 
@@ -18,7 +18,13 @@ fn main() {
             .read_line(&mut guess)
             .expect("Failed to read line");
 
-        let guess: u32 = guess.trim().parse().expect("Please enter a number!");
+        let guess: u32 = match guess.trim().parse() {
+            Ok(num) => num,
+            Err(_) => {
+                println!("Enter a valid number");
+                continue;
+            }
+        };
 
         match guess.cmp(&secret_number) {
             Ordering::Less => println!("Too small!"),
