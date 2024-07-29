@@ -1,3 +1,5 @@
 .gitignore
 /target
 /rust-practice
+/*/rust-practice
+/*/target
